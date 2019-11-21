@@ -1,0 +1,18 @@
+body {
+    font-family: 'Yantramanav', sans-serif;
+    color: #252525;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Ubuntu', sans-serif;
+}

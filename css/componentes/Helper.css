@@ -1,0 +1,105 @@
+/*======================
+     1.Helper 
+========================*/
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    background-color: #fff;
+}
+
+.btn {
+    padding: 14px 36px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-rounded {
+    border-radius: 30px !important;
+}
+
+.btn-custom {
+    font-size: 15px;
+    transition: all 0.4s;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    box-shadow: none !important;
+}
+
+.btn-outline {
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active,
+.btn-outline.focus,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:hover,
+.open > .dropdown-toggle.btn-outline {
+    transition: all 0.5s;
+    outline: none;
+    text-decoration: none;
+}
+
+.vertical-content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.bg-overlay {
+    background-color: rgba(11, 15, 41, 0.65);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.section-title {
+    max-width: 485px;
+}
+
+.section-title small {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+h2.h2-small {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.m-bottom-25 {
+    margin-bottom: 25px;
+}
+

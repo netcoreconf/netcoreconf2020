@@ -1,0 +1,28 @@
+.bg-video-img {
+    background: url('../img');
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.play-video-btn {
+    height: 80px;
+    width: 80px;
+    font-size: 36px;
+    line-height: 78px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    transition: all .8s ease;
+}
+
+.play-video-btn:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.video-title-width {
+    max-width: 580px
+}

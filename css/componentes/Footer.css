@@ -1,0 +1,86 @@
+.footer {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .footer-list li a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+    line-height: 30px;
+}
+
+.footer .footer-list li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .footer-list li {
+    margin-bottom: 5px;
+}
+
+.footer-social li a i {
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+.footer-social li a i.facebook {
+    background-color: #5472d2;
+    border-color: #5472d2;
+}
+
+.footer-social li a i.instagram {
+    background-color: #e43667;
+    border-color: #e43667;
+}
+
+.footer-social li a i.twitter {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.footer-social li a i.linkedin {
+    background-color: #0173B2;
+    border-color: #0173B2;
+}
+
+.footer-desc {
+    line-height: 26px;
+}
+
+.footer-border {
+    height: 1px;
+    background-color: #4a4a4a;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subcribe-form {
+    height: 48px;
+    border: none;
+    border-radius: 0px;
+}
+
+.subcribe-btn {
+    background-color: #ffd800;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    border: 0px solid #ffd800;
+    color: #2d2d4c;
+    padding: 15px 24px 15px 24px;
+    text-transform: normal;
+    white-space: normal;
+    outline: none !important;
+}
+
+.footer-terms a {
+    color: rgba(255, 255, 255, 0.5);
+}

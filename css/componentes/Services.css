@@ -1,0 +1,75 @@
+.service-boxed {
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.service-body h5 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.service-body p {
+    margin-bottom: 0;
+    line-height: 26px;
+}
+
+.service-boxed i {
+    display: inline-block;
+    font-size: 30px;
+    width: 90px;
+    height: 90px;
+    line-height: 84px;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #bbb;
+    transition: all 0.3s;
+    background-color: #fff;
+}
+
+.service-boxed i:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #fff !important;
+    box-shadow: 0 0 3px #6362b8;
+}
+
+.serevice-box {
+    border: 1px solid #ededed;
+}
+
+.serevice-box-icon i {
+    font-size: 38px;
+}
+
+.serevice-box h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.serevice-box p {
+    line-height: 25px;
+}
+
+.follow-desc {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.follow-desc a {
+    border: 2px solid #6c678f;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    color: #6c678f;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}

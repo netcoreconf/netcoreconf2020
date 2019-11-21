@@ -1,0 +1,260 @@
+.mb30 {
+    margin-bottom: 30px !important;
+}
+
+.entry-card {
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.entry-content {
+    background-color: #fff;
+    padding: 36px 36px 36px 36px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.entry-content .entry-title a {
+    color: #333;
+}
+
+.entry-content .entry-title a:hover {
+    color: #4782d3;
+}
+
+.entry-content .entry-meta span {
+    font-size: 12px;
+}
+
+.entry-title {
+    font-size: .95rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.entry-thumb {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.entry-thumb img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.entry-thumb .thumb-hover {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: rgba(91, 46, 143, 0.41);
+    display: block;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    text-align: center;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.entry-thumb:hover .thumb-hover {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+}
+
+.article-post {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 70px;
+}
+
+.article-post .post-thumb {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.article-post .post-thumb .post-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    opacity: 0;
+}
+
+.article-post .post-thumb .post-overlay span {
+    width: 100%;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    transform: translateY(70%);
+    -webkit-transform: translateY(70%);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    height: 100%;
+    color: #fff;
+}
+
+.article-post .post-thumb:hover .post-overlay {
+    opacity: 1;
+}
+
+.article-post .post-thumb:hover .post-overlay span {
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+}
+
+.post-content .post-title {
+    font-weight: 500;
+}
+
+.post-meta {
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.post-meta li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.post-meta li a {
+    color: #999;
+    font-size: 13px;
+}
+
+.post-meta li a:hover {
+    color: #4782d3;
+}
+
+.post-meta li i {
+    margin-right: 5px;
+}
+
+.post-meta li:after {
+    margin-top: -5px;
+    content: "/";
+    margin-left: 10px;
+}
+
+.post-meta li:last-child:after {
+    display: none;
+}
+
+.post-masonry .masonry-title {
+    font-weight: 500;
+}
+
+.share-buttons li {
+    vertical-align: middle;
+}
+
+.share-buttons li a {
+    margin-right: 0px;
+}
+
+.post-content .fa {
+    color: #ddd;
+}
+
+.post-content a h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.article-post .owl-carousel {
+    margin-bottom: 20px !important;
+}
+
+.post-masonry h4 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-blog {
+    padding: 150px 0 100px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #15456c;
+    background: url('../images/blog-cover.jpg');
+}
+
+.banner-blog .title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.banner-blog .subtitle {
+    color: #ffffff;
+}
+
+.blog-autor {
+    text-transform: uppercase;
+    color: #8d97ad;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+.blog-details-title {
+    color: #3e4555;
+    margin: 20px 0 15px;
+    font-weight: 300;
+}
+
+.bg-facebook {
+    background-color: #3b5a9a;
+    color: #FFFFFF;
+}
+
+.bg-twitter {
+    background-color: #56adf2;
+    color: #FFFFFF;
+}
+
+.text-muted {
+    color: #8d97ad !important;
+}
+
+.op-5 {
+    opacity: 0.5;
+}
+
+.display-5 {
+    font-size: 3rem;
+}
+
+.blog-outstanding {
+    font-weight: 300;
+    color: #3e4555;
+}
+
+.blog-outstanding h3 {
+    line-height: 30px;
+    font-size: 24px;
+}

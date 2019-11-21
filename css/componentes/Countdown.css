@@ -1,0 +1,48 @@
+#countdown {
+    background-image: url('../images/register.jpg');
+}
+
+.bg-scroll {
+    width: 100%;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.wide-130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+#clock {
+    display: inline-block;
+}
+
+#clock .cbox {
+    float: left;
+    text-align: center;
+    padding: 5px 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+}
+
+#clock span.cbox-digit {
+    color: #fff;
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+#clock span.cbox-txt {
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    display: block;
+    padding-top: 10px;
+}

@@ -1,0 +1,43 @@
+.more-features {
+    padding: 40px 0;
+}
+
+.more-features i {
+    font-size: 50px;
+}
+
+.preference-subtitle {
+    line-height: 24px;
+}
+
+.preference-more {
+    margin-top: 25px;
+    display: block;
+}
+
+.features-border {
+
+    border: 1px solid transparent;
+}
+
+.bg-features-great
+{
+    color: #FFFFFF;
+    background-color: #5c2e91;
+}
+
+.text-features-great
+{
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:991px)
+{
+    #tecnologies .mt-5 .col-lg-3{
+        display: flex;
+        flex-direction: column;
+    }
+    #tecnologies .mt-5 .col-lg-3:nth-child(odd){
+        flex-direction: column-reverse;
+    }
+}

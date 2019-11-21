@@ -1,0 +1,30 @@
+.team-subtitle {
+    font-size: 22px;
+}
+
+.team-box {
+    background-color: #ffffff;
+}
+
+.team-desc {
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.team-info small {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.team-social li a {
+    color: #000;
+    transition: all 0.52s;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block;
+}

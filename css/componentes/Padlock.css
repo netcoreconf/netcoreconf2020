@@ -1,0 +1,111 @@
+.main {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    margin: -200px 0px 0px -150px;
+}
+
+.bottom_1,
+.bottom_3 {
+    width: 200px;
+    height: 50px;
+    background: rgb(92, 46, 145);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.bottom_1 {
+    bottom: 130px;
+    left: 50px;
+}
+
+.bottom_2 {
+    width: 180px;
+    height: 70px;
+    background: rgb(184, 182, 180);
+    bottom: 55px;
+    left: 60px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.bottom_3 {
+    bottom: 0;
+    left: 50px;
+}
+
+.bottom_1,
+.bottom_2,
+.bottom_3 {
+    position: absolute;
+}
+
+.serrure {
+    background: black;
+    width: 35px;
+    height: 35px;
+    margin: 12px auto 0px auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.serrure:after {
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    margin-left: -7px;
+    content: '';
+    border: solid black;
+    border-width: 7px;
+}
+
+.cache_top {
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    bottom: 230px;
+    left: 75px;
+    overflow: hidden;
+}
+
+.left {
+    position: absolute;
+    bottom: 180px;
+    left: 75px;
+    width: 15px;
+    height: 50px;
+    background: rgb(184, 182, 180);
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 130px;
+    border: 15px solid rgb(184, 182, 180);
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+
+.right {
+    position: absolute;
+    bottom: 180px;
+    right: 75px;
+    width: 15px;
+    height: 50px;
+    background: rgb(184, 182, 180);
+}

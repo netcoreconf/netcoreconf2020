@@ -1,0 +1,21 @@
+.bg-about-custom {
+    background-color: rgba(255, 193, 7, 0.8);
+}
+
+.custom-faq h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.custom-faq p {
+    line-height: 24px;
+    color: #6f6a6a;
+}
+
+.custom-faq .underline {
+    clear: both;
+    position: relative;
+    margin: 40px 0;
+    border-top: 1px solid #eee;
+}

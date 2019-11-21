@@ -1,0 +1,26 @@
+{
+  "name": "typed.js",
+  "version": "2.0.7",
+  "homepage": "https://github.com/mattboldt/typed.js",
+  "authors": [
+    "Matt Boldt <me@mattboldt.com>"
+  ],
+  "description": "A JavaScript Typing Animation Library",
+  "main": "lib/typed.js",
+  "keywords": [
+    "typed",
+    "animation"
+  ],
+  "ignore": [],
+  "license": "MIT",
+  "_release": "2.0.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.7",
+    "commit": "04d65a90dab282a1cabdad7c5fdeb2ac1e848af2"
+  },
+  "_source": "https://github.com/mattboldt/typed.js.git",
+  "_target": "^2.0.7",
+  "_originalSource": "typed.js",
+  "_direct": true
+}

@@ -1,0 +1,22 @@
+.lock {
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: rgb(92, 46, 145);;
+    position: relative;
+    line-height: 160px;
+    text-align: center;
+  }
+  .lock::after {
+    content: '';
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    border: 30px solid #aaa;
+    border-radius: 85px 85px 0 0;
+    border-bottom: 0;
+    top: -130px;
+    left: 15px;
+  }
+  
+ 

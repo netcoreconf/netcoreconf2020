@@ -1,0 +1,61 @@
+.bg-sub-page-home {
+    background: url('../images/bg-about.png');
+    position: relative;
+    background-position: center center;
+}
+
+.heading-half {
+    padding: 130px 0;
+    height: auto;
+}
+
+.page-next a,
+.page-next span {
+    font-size: 12px;
+    padding-left: 8px;
+    letter-spacing: 2px;
+    padding-right: 8px;
+    text-transform: uppercase;
+    color: rgba(255, 247, 247, 0.9);
+}
+
+.page-next-level h4 {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.vision-desc,
+.mission-desc p {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.about-bg-img {
+    background-image: url("../images/bg-about-img-1.jpg");
+    position: relative;
+    background-size: cover;
+}
+
+.about_bg_color {
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.about-content i {
+    font-size: 40px;
+}
+
+.about-service {
+    margin-top: 40px;
+}
+
+.about-icon i {
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.about-story {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 25px;
+}

@@ -1,0 +1,11 @@
+.client-images img {
+    max-height: 90px;
+    width: auto !important;
+    margin: 10px auto;
+    opacity: 0.3;
+    transition: all 0.5s;
+}
+
+.client-images img:hover {
+    opacity: 0.6;
+}
