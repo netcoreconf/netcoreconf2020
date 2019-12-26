@@ -12,80 +12,219 @@
     <link href="vendor/mdi/css/materialdesignicons.min.css" asp-append-version="true" rel="stylesheet"/>
     <link href="vendor/components-font-awesome/css/fontawesome-all.min.css" asp-append-version="true" rel="stylesheet"/>
     <link href="vendor/magnific-popup/dist/magnific-popup.css" asp-append-version="true" rel="stylesheet"/>
+    <link href="css/padlock.css" asp-append-version="true" rel="stylesheet">
     <link href="css/main.min.css" asp-append-version="true" rel="stylesheet"/>
 </head>
 
 <body>
-<section class="section bg-dark pt-2">
-</section>
 
-<h2>Política de cookies</h2>
+    <div class="alert text-center cookiealert" role="alert">
+        <p class="nomargin">Utilizamos cookies para asegurarnos de que le ofrecemos la mejor experiencia en nuestro sitio web, en cumplimiento del Real Decreto-ley 13/2012. Si continúa utilizando este sitio, asumiremos que está satisfecho con ello.</p>
+        <div class="cookiediv">
+            <a href="privacy.html" class="btn btn-custom-cookies">Leer más</a>
+            <button type="button" class="btn btn-custom-cookies acceptcookies" data-cookie-string="@cookieString">Seguir navengando</button>
+        </div>
+    </div>
 
-<h5>Uso de Cookies</h5>
-<h6>Definición de Cookies</h6>
-<p>Las cookies son unos pequeños ficheros de texto que se descargan y almacenan en los dispositivos de los usuarios cuando acceden a páginas Web. Estos ficheros pueden almacenar datos sobre la navegación del usuario con objeto de personalizar la información que nos presentan las páginas Web. El uso de cookies es una técnica ampliamente utilizada en Internet para mejorar la prestación del servicio Web y ofrecer al usuario una mejor experiencia de navegación, así como para guardar y recuperar sus preferencias, recopilar información estadística sobre su navegación, sobre las páginas visitadas, la duración de la visita, etc.</p>
-<h6>Tipos de Cookies</h6>
-<p>Las cookies se pueden clasificar en varias categorías en función de sus características, pudiendo estar incluidas en una o varias de ellas.</p>
-<p>En función de su origen: Pueden ser "propias" o "de terceros", dependiendo de la entidad que las gestione.</p>
-<p>En función de su duración: Pueden ser de "sesión" que expiran al cerrar el navegador, y se utilizan principalmente para mantener activa la sesión de un usuario, o "persistentes" que expiran al cumplir el objetivo para el que fueron diseñadas o cuando se borran manualmente.</p>
-<p>En función de su finalidad: Pueden ser:</p>
-<p>1. "técnicas o necesarias" para permitir la utilización de diferentes servicios de la página Web. Si el usuario deshabilita este tipo de cookies a través de las preferencias de su navegador, no será posible continuar con la navegación.</p>
-<p>2. "funcionales", tanto de "personalización" para ofrecer servicios personalizados en función a unos criterios preestablecidos, como "analíticas", aquellas que bien tratadas por nosotros o por terceros (fundamentalmente a través de Google Analitycs) permiten realizar un seguimiento del comportamiento de navegación de los usuarios con carácter estadístico y para la elaboración de perfiles de navegación, con el fin de introducir mejoras en función del análisis de los datos de uso sobre la oferta de productos y/o servicios. Si el usuario no acepta el uso de las cookies funcionales, este sitio Web seguirá funcionando aunque puede perder parte de su funcionalidad.</p>
-<p>3. "publicitarias" para mostrar publicidad en función de unos perfiles de usuario predeterminados, de "publicidad comportamental" similar a la anterior pero teniendo en cuenta el comportamiento y los hábitos de navegación del usuario, etc. En general, son las cookies que permiten mostrar publicidad de forma personalizada al usuario, tanto dentro como fuera de nuestra página web a lo largo de su navegación.</p>
+    <!-- Navigation Bar-->
+    <header id="topnav" class="defaultscroll fixed-top sticky">
+        <div class="container" style="display: flex;align-items: center;justify-content: space-between;">
+            <!-- Logo container-->
+            <div>
+                <a href="index.html" class="logo text-uppercase">
+                        <img src="images/logo-light.png" alt="" class="logo-light" height="18" />
+                        <img src="images/logo-dark.png" alt="" class="logo-dark" height="18" />
+                    </a>
+            </div>
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu">
+                    <li class="">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">Speakers</a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">Agenda</a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">Sponsors</a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">Venue</a>
+                    </li>
+                    <li class="">
+                        <a href="index.html">Contacto</a>
+                    </li>
+                    <li class="">
+                        <a href="https://netcoreconfbcn2020.eventbrite.es" class="btn-custom btn-rounded">Entradas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <section data-jarallax data-speed="0.2" class="section bg-video jarallax" style="background-image: url('images/register.jpg');" id="bannertickets">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-12">
+                    <h2 class="text-white">Política de cookies</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<h6>Uso de Cookies</h6>
-<p>Al visitar nuestras páginas Web, recopilamos información estándar de Internet así como detalles sobre patrones de comportamiento de los visitantes. Esta información no contiene en ningún caso datos de carácter personal, ni se asocia con otra información que permita identificar al usuario. En caso de ser necesaria información personal le sería solicitada de manera explícita.</p>
-<p>La utilización de nuestras páginas Web implica por su parte que presta su consentimiento expreso e inequívoco a la utilización de cookies, en los términos y condiciones previstos en esta Política de Cookies, sin perjuicio de las medidas de desactivación y eliminación de las cookies que pueda adoptar y que se mencionan en el apartado Control de Cookies.</p>
-<p>Es posible que la Política de Cookies de nuestro sitio Web pueda cambiar, por ello le recomendamos revisar periódicamente nuestra información sobre Política de Cookies para que pueda estar convenientemente informado.</p>
-<h6>Control de Cookies</h6>
-<p>
-    Al navegar por nuestras páginas Web, el usuario puede enlazar con otros sitios Web donde tengamos presencia. Cuando el usuario selecciona esta opción será dirigido a dicho sitio Web, y una vez abandonadas nuestras páginas no podemos responsabilizarnos
-    del uso de cookies que realicen dichos stios Web ajenos a esta Entidad.
-</p>
-<p>
-    Si lo desea puede consultar las políticas de privacidad de estos enlaces en las siguientes direcciones,
-</p>
-<a href="http://www.linkedin.com/legal/privacy-policy">Política de privacidad de LinkedIn.</a>
-<a href="https://twitter.com/privacy">Política de privacidad de Twitter.</a>
-<a href="https://www.facebook.com/about/privacy/">Política de privacidad de Facebook.</a>
-<a href="http://www.youtube.com/yt/policyandsafety/es/index.html">Política de privacidad de Youtube.</a>
-<a href="http://www.google.com/intl/es/policies/privacy/">Política de privacidad de Google.</a>
-<a href="http://instagram.com/about/legal/privacy">Política de privacidad de Instagram.</a>
-<p>
-    Usted puede consultar, borrar, limitar el uso, desactivar la utilización de cookies, o recibir una advertencia en el momento que van a ser generadas, mediante el menú de su navegador. Los pasos para realizarlo son diferentes dependiendo del navegador
-    utilizado, y puede consultarlos en el menú de ayuda del propio navegador. También puede obtener más información en los siguientes enlaces:
-</p>
-<a href="http://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies">Información sobre Internet Explorer.</a>
-<a href="https://support.google.com/chrome/answer/95647?hl=es&hlrm=en">Información sobre Chrome.</a>
-<a href="http://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-?redirectlocale=en-US&redirectslug=Cookies">Información sobre Firefox.</a>
-<a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES">Información sobre Safari.</a>
-<a href="http://help.opera.com/Windows/11.50/es-ES/cookies.html">Información sobre Opera.</a>
-<p>
-    El usuario debe tener en cuenta que algunas características de los contenidos de las páginas web sólo están disponibles si se permite la instalación de cookies en su navegador. Si decide no aceptar o bloquear determinadas cookies, en función de su finalidad
-    puede que esto afecte total o parcialmente al funcionamiento normal de la página, o que impida el acceso a algunos servicios de la misma.
-</p>
-<p>
-    Las cookies no exceptuadas utilizadas en nuestras páginas Web son las siguientes:
-</p>
-<p>
-    Tipo de Cookie ► Procedencia ► Nombre ► Duración ► Función
-</p>
-<p><b>Funcional:</b> Google Analytics - __utma, __utmb, __utmc, __utmz - Persistente - Conocer de forma anónima, nº de visitantes, procedencia, páginas visitadas, etc.</p>
-<p>
-    Nuestras páginas Web utilizan Google Analytics, uno de los servicios de análisis Web más utilizados en Internet. Aunque esta información se recopila de forma anónima, los usuarios que lo deseen pueden evitar que los datos de su visita se incluyan en los
-    informes de Google Analytics instalando el complemento de inhabilitación para navegadores de Google Analytics que está disponible en http://tools.google.com/dlpage/gaoptout. Este complemento no evita que se envíe información a sitios Web por otras
-    vías distintas a estos servicios de analítica Web.
-</p>
+    <section class="section bg-light" id="eventdescription">
+        <div class="container">
+            <div class="row vertical-content justify-content-center mt-5 pb-4">
+                <div class="col-lg-12 about-txt p-right-30 m-bottom-20">
+                    <div>
+                        <h2>Uso de Cookies</h2>
+                        <h4 style="font-weight: bold;">Definición de Cookies</h4style="font-weight: bold;">
+                        <p class="p-lg" style="font-size: 18px;">
+                        Las cookies son unos pequeños ficheros de texto que se descargan y almacenan en los dispositivos de los usuarios cuando acceden a páginas Web. Estos ficheros pueden almacenar datos sobre la navegación del usuario con objeto de personalizar la información que nos presentan las páginas Web. El uso de cookies es una técnica ampliamente utilizada en Internet para mejorar la prestación del servicio Web y ofrecer al usuario una mejor experiencia de navegación, así como para guardar y recuperar sus preferencias, recopilar información estadística sobre su navegación, sobre las páginas visitadas, la duración de la visita, etc.
+                        </p>
+                        <h4 style="font-weight: bold;">Tipos de Cookies</h4>
+                        <p class="p-lg" style="font-size: 18px;">Las cookies se pueden clasificar en varias categorías en función de sus características, pudiendo estar incluidas en una o varias de ellas.</p>
+                        <p class="p-lg" style="font-size: 18px;"></p>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="font-size: 18px;">En función de su origen: Pueden ser "propias" o "de terceros", dependiendo de la entidad que las gestione.</li>
+                            <li class="list-group-item" style="font-size: 18px;">En función de su duración: Pueden ser de "sesión" que expiran al cerrar el navegador, y se utilizan principalmente para mantener activa la sesión de un usuario, o "persistentes" que expiran al cumplir el objetivo para el que fueron diseñadas o cuando se borran manualmente.</li>
+                            <li class="list-group-item" style="font-size: 18px;">En función de su finalidad: Pueden ser:
+                                <br>
+                                1. "técnicas o necesarias" para permitir la utilización de diferentes servicios de la página Web. Si el usuario deshabilita este tipo de cookies a través de las preferencias de su navegador, no será posible continuar con la navegación.
+                                <br>
+                                2. "funcionales", tanto de "personalización" para ofrecer servicios personalizados en función a unos criterios preestablecidos, como "analíticas", aquellas que bien tratadas por nosotros o por terceros (fundamentalmente a través de Google Analitycs) permiten realizar un seguimiento del comportamiento de navegación de los usuarios con carácter estadístico y para la elaboración de perfiles de navegación, con el fin de introducir mejoras en función del análisis de los datos de uso sobre la oferta de productos y/o servicios. Si el usuario no acepta el uso de las cookies funcionales, este sitio Web seguirá funcionando aunque puede perder parte de su funcionalidad.
+                                <br>
+                                3. "publicitarias" para mostrar publicidad en función de unos perfiles de usuario predeterminados, de "publicidad comportamental" similar a la anterior pero teniendo en cuenta el comportamiento y los hábitos de navegación del usuario, etc. En general, son las cookies que permiten mostrar publicidad de forma personalizada al usuario, tanto dentro como fuera de nuestra página web a lo largo de su navegación.
+                            </li>
+                        </ul>
+                        <br>
+                        <h4 style="font-weight: bold;">Uso de Cookies</h4style="font-weight: bold;">
+                        <p class="p-lg" style="font-size: 18px;">
+                            Al visitar nuestras páginas Web, recopilamos información estándar de Internet, así como detalles sobre patrones de comportamiento de los visitantes. Esta información no contiene en ningún caso datos de carácter personal, ni se asocia con otra información que permita identificar al usuario. En caso de ser necesaria información personal le sería solicitada de manera explícita. La utilización de nuestras páginas Web implica por su parte que presta su consentimiento expreso e inequívoco a la utilización de cookies, en los términos y condiciones previstos en esta Política de Cookies, sin perjuicio de las medidas de desactivación y eliminación de las cookies que pueda adoptar y que se mencionan en el apartado Control de Cookies. Es posible que la Política de Cookies de nuestro sitio Web pueda cambiar, por ello le recomendamos revisar periódicamente nuestra información sobre Política de Cookies para que pueda estar convenientemente informado. 
+                        </p>
+                        <h4 style="font-weight: bold;">Control de Cookies</h4style="font-weight: bold;">
+                        <p class="p-lg" style="font-size: 18px;">
+                            Al navegar por nuestras páginas Web, el usuario puede enlazar con otros sitios Web donde tengamos presencia. Cuando el usuario selecciona esta opción será dirigido a dicho sitio Web, y una vez abandonadas nuestras páginas no podemos responsabilizarnos del uso de cookies que realicen dichos stios Web ajenos a esta Entidad. Si lo desea puede consultar las políticas de privacidad de estos enlaces en las siguientes direcciones:                     
+                        </p>
+                        <br>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://www.linkedin.com/legal/privacy-policy">Política de privacidad de LinkedIn.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="https://twitter.com/privacy">Política de privacidad de Twitter.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="https://www.facebook.com/about/privacy/">Política de privacidad de Facebook.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://www.youtube.com/yt/policyandsafety/es/index.html">Política de privacidad de Youtube.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://www.google.com/intl/es/policies/privacy/">Política de privacidad de Google.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://instagram.com/about/legal/privacy">Política de privacidad de Instagram.</a></li>
+                        </ul>
+                        <br>
+                        <p class="p-lg" style="font-size: 18px;">
+                            Usted puede consultar, borrar, limitar el uso, desactivar la utilización de cookies, o recibir una advertencia en el momento que van a ser generadas, mediante el menú de su navegador. Los pasos para realizarlo son diferentes dependiendo del navegador utilizado, y puede consultarlos en el menú de ayuda del propio navegador. También puede obtener más información en los siguientes enlaces:
+                        </p>
+                        <br>
+                        <ul class="list-group">
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://windows.microsoft.com/es-ES/windows-vista/Block-or-allow-cookies">Información sobre Internet Explorer.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="https://support.google.com/chrome/answer/95647?hl=es&hlrm=en">Información sobre Chrome.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-?redirectlocale=en-US&redirectslug=Cookies">Información sobre Firefox.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://support.apple.com/kb/HT1677?viewlocale=es_ES">Información sobre Safari.</a></li>
+                            <li class="list-group-item" style="font-size: 18px;"><a href="http://help.opera.com/Windows/11.50/es-ES/cookies.html">Información sobre Opera.</a></li>
+                        </ul>
+                        <br>
+                        <p class="p-lg" style="font-size: 18px;">
+                            El usuario debe tener en cuenta que algunas características de los contenidos de las páginas web sólo están disponibles si se permite la instalación de cookies en su navegador. Si decide no aceptar o bloquear determinadas cookies, en función de su finalidad puede que esto afecte total o parcialmente al funcionamiento normal de la página, o que impida el acceso a algunos servicios de la misma.
+                        </p>
+                        <p class="p-lg" style="font-size: 18px;">Las cookies no exceptuadas utilizadas en nuestras páginas Web son las siguientes:</p>
+                        <p class="p-lg" style="font-size: 18px;">Tipo de Cookie ► Procedencia ► Nombre ► Duración ► Función</p>
+                        <p class="p-lg" style="font-size: 18px;"><b>Funcional:</b> Google Analytics - __utma, __utmb, __utmc, __utmz - Persistente - Conocer de forma anónima, nº de visitantes, procedencia, páginas visitadas, etc.</p>
+                        <p class="p-lg" style="font-size: 18px;">
+                            Nuestras páginas Web utilizan Google Analytics, uno de los servicios de análisis Web más utilizados en Internet. Aunque esta información se recopila de forma anónima, los usuarios que lo deseen pueden evitar que los datos de su visita se incluyan en los informes de Google Analytics instalando el complemento de inhabilitación para navegadores de Google Analytics que está disponible en http://tools.google.com/dlpage/gaoptout. Este complemento no evita que se envíe información a sitios Web por otras vías distintas a estos servicios de analítica Web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark footer pt-2" id="contact">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-lg-4">
+                    <h5 class="text-white footer-title ">Sobre NetCoreConf</h5>
+                    <div class="mt-4">
+                        <p class="footer-desc">Lo último en tecnologías Microsoft y mucho más con los mejores expertos. Donde podrás aprender, compartir y hacer networking. Asistiendo a diversas Conferencias y Workshops.</p>
+                    </div>
+                    <div class="mt-4">
+                        <ul class="list-unstyled text-white footer-social list-inline">
+                            <li class="list-inline-item"><a href="https://twitter.com/netcoreconf"><i class="mdi mdi-twitter twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/netcoreconf/"><i class="mdi mdi-instagram instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/originalnetcoreconf/"><i class="mdi mdi-facebook facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="text-white footer-title">Próximos Eventos</h5>
+                    <div class="mt-4">
+                        <ul class="list-unstyled text-white footer-list">
+                            <li>Barcelona</li>
+                            <li>Madrid</li>
+                            <li>Valencia</li>
+                            <li>Asturias</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="text-white footer-title">Últimos Posts</h5>
+                    <div class="mt-4">
+                        <ul class="list-unstyled footer-list">
+                            <li><a href="https://www.facebook.com/originalnetcoreconf/">Facebook</a></li>
+                            <li><a href="https://twitter.com/netcoreconf">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/netcoreconf/">Intagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-white footer-title">Contáctanos</h5>
+                    <div class="mt-4">
+                        <p>info@netcoreconf.com</p>
+                    </div>
+                    <h5 class="text-white footer-title"><a style="color: #FFFFFF;" href="code_of_conduct.html">Code of Conduct</a></h5>
+                </div>
+            </div>
+            <div class="footer-border"></div>
+            <div class="row pb-4">
+                <div class="col-lg-12">
+                    <div class="float-left pull-none">
+                        <p class="footer-terms">&copy; NetCoreConf 2018 - All Right Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script src="vendor/jquery/dist/jquery.min.js"></script>
-<script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="vendor/jquery.easing/js/jquery.easing.min.js"></script>
-<script src="vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-<script src="vendor/jquery.countdown/dist/jquery.countdown.min.js"></script>
-<script src="vendor/jarallax/dist/jarallax.min.js"></script>
-<script src="vendor/typed.js/lib/typed.min.js"></script>
-<script src="js/main.min.js" asp-append-version="true"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123370463-1"></script>
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.easing/js/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/jquery.countdown/dist/jquery.countdown.min.js"></script>
+    <script src="vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="vendor/typed.js/lib/typed.min.js"></script>
+    <script src="js/main.min.js" asp-append-version="true"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123370463-1"></script>
 
 </body>
 </html>
