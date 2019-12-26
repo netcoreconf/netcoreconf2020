@@ -147,13 +147,31 @@ body {
     position: absolute;
     top: 100px;
     text-align: center;
+    font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 1s;
     color: #FFFFFF;
   }
+
   .logo {
     background: url(../images/logo_2020.png);
     position: absolute;
-    bottom: 5px;
+    bottom: 30px;
     transition: 1s;
   }
+
+@media handheld, only screen and (max-width: 767px) {
+    .logo {
+      display: none;
+    }
+    .title {
+      position: absolute;
+      top: 100px;
+      text-align: center;
+      font-size: 17px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      transition: 1s;
+      color: #FFFFFF;
+    }
+}
+
