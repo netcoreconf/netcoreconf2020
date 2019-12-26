@@ -146,9 +146,9 @@ body {
   .title {
     position: absolute;
     top: 100px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 1s;
-    font-size: x-large;
-    font-family: -webkit-pictograph;
     color: #FFFFFF;
   }
   .logo {
