@@ -2317,6 +2317,7 @@ p.p-home {
     .navbar-toggle {
         display: block
     }
+    
 }
 
 @media (max-width:768px) {
@@ -2326,6 +2327,10 @@ p.p-home {
     }
     #topnav .logo {
         line-height: 70px!important
+    }
+
+    #clock span.cbox-digit {
+        font-size: 40px;
     }
 }
 
@@ -4492,8 +4497,8 @@ p.p-home {
         padding: 3px 20px
     }
     #clock span.cbox-digit {
-        font-size: 32px;
-        line-height: 32px
+        font-size: 23px;
+        line-height: 23px
     }
     .workshop-description a {
         font-size: 15px;
