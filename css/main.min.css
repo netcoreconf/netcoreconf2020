@@ -4982,3 +4982,8 @@ p.p-home {
 .video-title-width {
     max-width: 580px
 }
+
+.sold-out {
+    margin-top: -150px;
+}
+
