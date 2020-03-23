@@ -1853,6 +1853,14 @@ h2.h2-small {
     background-position: center center
 }
 
+.bg-home-virtual-conference {
+    background-color: #15456c;
+    background: url(../images/virtual-conference.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center
+}
+
 .bg-home-2 {
     background: radial-gradient(at 50% -20%, #3d4e81, #5753c9, #6e7ff3) fixed;
     position: relative;
